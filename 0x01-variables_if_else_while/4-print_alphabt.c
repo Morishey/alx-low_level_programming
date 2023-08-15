@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints all alpabrts except e and q
+ * main - prints all alphabets except e and q
  *
  * Return: Always 0 (success)
  */
@@ -12,8 +12,8 @@ int main(void)
 
 	while (letter <= 'z')
 	{
-	if (letter != 'q' && letter != 'e')
-		putchar(letter);
+		if (letter != 'q' && letter != 'e')
+			putchar(letter);
 
 		letter++;
 	}
