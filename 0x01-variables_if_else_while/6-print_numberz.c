@@ -1,17 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - prints all single numbers
- *
- * Return: Always 0 (success)
+ * main - Entry point
+ * Description: 'Print number of base 10 using putchar
+ * Return: Always 0
  */
 int main(void)
 {
-	int n = 123456789;
-	char digits[] = "0123456789";
+	int n;
 
-	putchar(digits[n]);
-	putchar('\n');
+	for (n = 0; n <= 9; n++)
+	{
+		putchar(n + 48);
+		putchar('\n');
+	}
 
 	return (0);
 }
